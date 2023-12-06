@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recent YouTube Videos</title>
+</head>
+<body>
+    <h1>Recent YouTube Videos</h1>
+    <div>
+        {% for embed_url in youtube_embeds %}
+            <div style="margin-bottom: 20px;">
+                <!-- Display embedded YouTube videos using iframe -->
+                <iframe width="560" height="315" src="{{ embed_url }}" frameborder="0" allowfullscreen></iframe>
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
