@@ -57,7 +57,9 @@ This Django-based web application allows users to shorten URLs and optionally en
 - Implement secure practices for handling user-provided keys.
 - Customize the `Url` model or encryption/decryption methods according to requirements.
 
-
+## Screen Shots
+![image](https://github.com/nisheshjain12/Url-Shortner/assets/89805538/c89e65fd-f6e5-4b37-b328-68326483dcc8)
+![image](https://github.com/nisheshjain12/Url-Shortner/assets/89805538/516462e7-b4a0-42cf-8014-ea56ff45d7c0)
 
 ## License
 
